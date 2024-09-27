@@ -25,42 +25,27 @@ class SinglyLinkedList {
       this.tail.next = newNode; // after the tail next is
       this.tail = newNode;
       this.length++;
-      return this
+      return this;
     }
+  }
+  // Add In Front
+  unshift(val) {
+    // create new node
+    const newNode = new Node(val);
+    newNode.next =  this.head
+    this.head = newNode;
+    this.length ++
+    return this
+
+    // make new node at first
+    // make it head
+    
   }
 }
 
-let list = new SinglyLinkedList(1)
-list.push(25)
-list.push(30)
+let list = new SinglyLinkedList(1);
+list.push(2);
+list.push(3);
+list.unshift(9);
 
-console.log(list)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log("list", list);

@@ -195,16 +195,17 @@
 
 
 
-class SinglyLinkedList {
-  constructor(val){
-    const newNode = new Node(val)
-    this.head = newNode
-    this.tail = this.head
-    this.length = 1
-  }
-}
+// class SinglyLinkedList {
+//   constructor(val){
+//     const newNode = new Node(val)
+//     this.head = newNode
+//     this.tail = this.head
+//     this.length = 1
+//   }
+// }
 
 // var first =  new Node("1")
 // first.next = new Node("2")
 // first.next.next = new Node("3")
 //
+
